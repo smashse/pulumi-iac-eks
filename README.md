@@ -101,7 +101,7 @@ There are a number of Environment Variables that can be set to interact with the
 
 ## Amazon Web Services (AWS)
 
-For AWS, you'll need to create or use or use an existing IAM user for your action. Please see [the Pulumi documentation page](https://pulumi.io/quickstart/aws/setup.html#environment-variables) for pointers to the relevant AWS documentation for doing this.
+For AWS, you'll need to create or use an existing IAM user for your action. Please see [the Pulumi documentation page](https://pulumi.io/quickstart/aws/setup.html#environment-variables) for pointers to the relevant AWS documentation for doing this.
 
 As soon as you have an AWS user in hand, you'll set the environment variables "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY" using GitHub Secrets, and then consume them in your action.
 
