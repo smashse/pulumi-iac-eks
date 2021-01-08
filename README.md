@@ -105,7 +105,7 @@ For AWS, you'll need to create or use or use an existing IAM user for your actio
 
 As soon as you have an AWS user in hand, you'll set the environment variables "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY" using GitHub Secrets, and then consume them in your action.
 
-**Note:** Go to Settings> Secrets and add "PULUMI_ACCESS_TOKEN","AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY" as new repository secret.
+**Note:** Go to Settings> Secrets and add "PULUMI_ACCESS_TOKEN", "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY" as new repository secret.
 
 ## Commit the changes
 
